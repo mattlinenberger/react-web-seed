@@ -10,7 +10,7 @@ const loaderHandlebars = require('./loaders/loader.handlebars.js');
 const loaderSass = require('./loaders/loader.sass.js');
 
 /* plugins */
-const HtmlWebpackPlugin = require('html-webpack-plugin'); //eslint-disable-line
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const appData = {
   title: 'React Web Seed',
