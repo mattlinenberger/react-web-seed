@@ -18,7 +18,7 @@ const appData = {
 
 const webpack = {
   entry: {
-    app: './src/js/index.js',
+    app: './src/js/index.jsx',
   },
   output: {
     filename: `[name].${pkg.version}.js`,

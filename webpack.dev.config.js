@@ -6,12 +6,10 @@ const path = require('path');
 webpack.devtool = 'source-map';
 
 /* add dev server config */
-// webpack.devServer = {
-  // contentBase: path.join(__dirname, 'dist'),
-  // compress: true,
-  // port: 8080,
-// };
-
-console.log(webpack);
+webpack.devServer = {
+  contentBase: path.join(__dirname, 'dist'),
+  compress: true,
+  port: 8080,
+};
 
 module.exports = webpack;
