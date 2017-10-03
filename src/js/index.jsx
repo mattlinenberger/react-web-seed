@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from 'react-dom';
-import HelloWorld from './components/helloWorld.jsx'; //eslint-disable-line
+import HelloWorld from './components/helloWorld.jsx';
 
 const style = require('../style/index.scss');
 
