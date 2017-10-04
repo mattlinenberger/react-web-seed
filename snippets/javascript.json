@@ -1,0 +1,24 @@
+{
+  "Class Based React Component": {
+		"prefix": "component - React",
+		"body": [
+			"import React from 'react';",
+			"",
+			"class ${1:name} extends React.Component {",
+			"  constructor(props) {",
+			"    super(props);",
+			"    /* init component */",
+			"  }",
+			"",
+			"  render() {",
+			"    return (",
+			"      ${2}",
+			"    );",
+			"  }",
+			"}",
+			"",
+			"module.exports = ${1:name};",
+			""
+		]
+	},
+}
