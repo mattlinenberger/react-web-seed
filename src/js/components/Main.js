@@ -23,9 +23,9 @@ class Main extends React.Component {
         <Nav />
         <main>
           <Switch>
-            <Route exact path='/' component={new Home().render} />
-            <Route exact path='/about' component={new About().render} />
-            <Route path='/view' component={new NestedView().render} />
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
+            <Route path='/view' component={NestedView} />
           </Switch>
         </main>
       </div>

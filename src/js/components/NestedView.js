@@ -17,7 +17,7 @@ class NestedView extends React.Component {
 
   render(params) {
     console.log('rendered with props: %O', params);
-    const { match } = params;
+    const { match } = this.props;
 
     return (
       <div>
@@ -31,7 +31,7 @@ class NestedView extends React.Component {
           </div>
         </nav>
         <Switch>
-          <Route path={`${match.url}/:viewId`} component={new SubView().render} />
+          <Route path={`${match.url}/:viewId`} component={SubView} />
         </Switch>
       </div>
     );

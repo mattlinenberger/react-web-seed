@@ -5,9 +5,8 @@ class SubView extends React.Component {
     super(props);
     console.log('Constructing view 1');
   }
-  render(data) {
-    console.log('rendered with props: %O', data);
-    const { match } = data;
+  render() {
+    const { match } = this.props;
 
     return (
       <div>
