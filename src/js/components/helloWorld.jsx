@@ -6,8 +6,16 @@ class HelloWorld extends React.Component {
     console.log('hello, world');
   }
 
+  handleClick() {
+    console.log('Clicked!');
+  }
+
   render() {
-    return <h2>Hello, world!</h2>;
+    return (
+      <div>
+        <h2>Hello, world!</h2>
+        <button onClick={(e) =>{this.handleClick(e)}}>Click Me</button>
+      </div>);
   }
 }
 
