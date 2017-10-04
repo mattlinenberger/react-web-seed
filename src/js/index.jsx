@@ -1,10 +1,11 @@
 import React from 'react';
 import { render } from 'react-dom';
-import HelloWorld from './components/helloWorld.jsx';
+import HelloWorld from './components/HelloWorld';
+import Router from './components/Router';
 
 const style = require('../style/index.scss');
 
-render(<HelloWorld />, document.getElementById('root'));
+render(<Router />, document.getElementById('root'));
 
 export default {
   style,

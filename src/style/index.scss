@@ -1,3 +1,36 @@
+$color1: #20232a;
+$color2: #61dafb;
+$color3: #6d6d6d;
+$color4: white;
+
 body {
-  background: #61dafb;
+  font-family: Tahoma;
+  color: $color3;
+}
+
+#app {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+
+  padding: 1em;
+
+  background: $color1;
+
+  a {
+    text-decoration: none;
+    color: $color2;
+  }
+
+  &.sub-nav {
+    background: $color3;
+    a{
+      color: $color1;
+    } 
+  }
 }
