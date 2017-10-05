@@ -2,7 +2,7 @@
 class SampleSvc {
   constructor() {
     console.log('Constructing SampleSvc...');
-    
+
     /* init counts */
     this.count1 = 0;
     this.count2 = 0;
@@ -14,7 +14,7 @@ class SampleSvc {
   }
 
   retrieveData() {
-    const {count1 } = this;
+    const { count1 } = this;
     const data = {
       count1,
     };

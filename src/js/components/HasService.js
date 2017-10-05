@@ -24,7 +24,7 @@ class HasService extends React.Component {
       <div>
         <h2>Has Service</h2>
         <p>Service Count: {this.state.serviceValue.count1}</p>
-        <button onClick={(e) =>{this.incrementCount1(e)}}>Increment Count</button>
+        <button onClick={(e) => { this.incrementCount1(e); }}>Increment Count</button>
       </div>
     );
   }
