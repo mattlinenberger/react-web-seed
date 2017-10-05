@@ -1,0 +1,4 @@
+
+module.exports = {
+  SAMPLE_SERVICE_ON_CHANGE: 'SAMPLE_SERVICE_ON_CHANGE',
+};
