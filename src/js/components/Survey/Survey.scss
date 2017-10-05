@@ -1,0 +1,11 @@
+@import '../../../style/colors';
+
+.survey {
+  border: 2px solid $color3;
+  border-radius: 1em;
+  padding: 0 1em 1em 1em;
+
+  .error {
+    color: red;
+  }
+}

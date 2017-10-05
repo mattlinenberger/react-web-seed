@@ -2,12 +2,14 @@ import React from 'react';
 
 import HelloWorld from './HelloWorld';
 import HasService from './HasService';
+import Survey from './Survey/Survey';
 
 class Home extends React.Component {
   render() {
     return (
       <div>
         <h1>Home</h1>
+        <Survey />
         <HelloWorld />
         <HasService />
         <p>
