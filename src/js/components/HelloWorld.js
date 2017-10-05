@@ -14,7 +14,7 @@ class HelloWorld extends React.Component {
     return (
       <div>
         <h2>Hello, world!</h2>
-        <button onClick={(e) =>{this.handleClick(e)}}>Click Me</button>
+        <button onClick={(e) => { this.handleClick(e); }}>Click Me</button>
       </div>);
   }
 }
