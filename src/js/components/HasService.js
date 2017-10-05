@@ -26,17 +26,12 @@ class HasService extends React.Component {
       );
   }
 
-  incrementCount1() {
-    console.log('Incrementing Count...');
-    SampleSvc.incrementCount1();
-  }
-
   render() {
     return (
       <div>
         <h2>Has Service</h2>
         <p>Service Count: {this.state.count}</p>
-        <button onClick={(e) => { this.incrementCount1(e); }}>Increment Count</button>
+        <button onClick={() => { SampleSvc.incrementCount(); }}>Increment Count</button>
       </div>
     );
   }

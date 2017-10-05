@@ -15,7 +15,7 @@ class SampleSvc extends EventingService {
     this.createEvent(Events.SAMPLE_SERVICE_ON_CHANGE);
   }
 
-  incrementCount1() {
+  incrementCount() {
     let { count } = this.state;
 
     count += 1;
