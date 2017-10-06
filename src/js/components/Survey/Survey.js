@@ -8,6 +8,9 @@ class Survey extends FormComponent {
     super(props);
     /* init component */
     console.log('Survey Constructed!');
+    this.state = {
+      userName: '',
+    };
   }
 
   submit(event) {
