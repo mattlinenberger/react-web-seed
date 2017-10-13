@@ -5,7 +5,7 @@ module.exports = {
   loader: 'handlebars-loader',
   query: {
     partialDirs: [
-      path.join(__dirname, '..', 'src', 'html', 'templates', 'partials'),
+      path.join(__dirname, '..', 'src', 'html', 'partials'),
     ],
     /* for more helpers info https://github.com/pcardune/handlebars-loader/blob/master/examples/helperDirs/book-listing.handlebars */
     helperDirs: [
