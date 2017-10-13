@@ -1,15 +1,15 @@
-const webpack = require('./webpack.base.config.js');
-
+const common = require('./webpack.common.config.js');
+const merge = require('webpack-merge');
 const path = require('path');
 
-/* add source maps to the base config */
-webpack.devtool = 'source-map';
 
-/* add dev server config */
-webpack.devServer = {
-  contentBase: path.join(__dirname, 'dist'),
-  compress: true,
-  port: 8080,
-};
-
-module.exports = webpack;
+module.exports = merge(common, {
+  /* add source maps to the base config */
+  devtool: 'source-map',
+  /* add dev server config */
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 8080,
+  },
+});
